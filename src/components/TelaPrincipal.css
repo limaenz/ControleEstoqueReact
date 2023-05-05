@@ -1,0 +1,20 @@
+.container {
+    background-color: #0077b6;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 0;
+  }
