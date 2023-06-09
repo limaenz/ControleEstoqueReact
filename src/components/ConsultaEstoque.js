@@ -27,7 +27,7 @@ function ConsultarEstoque() {
 
   return (
     <div className="container">
-      <form className="form" onSubmit={ConsultaProdutos}>
+      <form className="formulario-consulta-estoque" onSubmit={ConsultaProdutos}>
         <h1 className="title">Consultar Produto</h1>
 
         <label htmlFor="codigo">Código*:</label>
@@ -72,8 +72,8 @@ function ConsultarEstoque() {
                     <td>{estoque.quantidade}</td>
                     <td>{estoque.precoUnitario}</td>
                     <td>{estoque.nomeFuncionario}</td>
-                    <td>{estoque.dataDeEntrada}</td>
-                    <td>{estoque.dataDeSaida}</td>
+                    <td>{new Date(estoque.dataDeEntrada).toLocaleDateString()}</td>
+                    <td>{new Date(estoque.dataDeSaida).toLocaleDateString()}</td>
                   </tr>
                 ))}
               </tbody>

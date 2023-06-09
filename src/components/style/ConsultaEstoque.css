@@ -7,6 +7,16 @@
   align-items: center;
 }
 
+.formulario-consulta-estoque {
+  width: 100%;
+  max-width: 1000px;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  margin: auto;
+}
+
 .title {
   color: black;
   font-size: 4rem;

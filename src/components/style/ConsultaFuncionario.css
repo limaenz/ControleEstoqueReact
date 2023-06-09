@@ -1,6 +1,7 @@
-.container {
+.container-consulta-funcionario {
+  zoom: 0.8;
   background-color: #0077b6;
-  height: 100vh;
+  min-height: 130vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +29,6 @@
 }
 
 table {
-  padding: 5rem;
   margin: 10px;
   width: 100%;
   border-collapse: collapse;
@@ -48,12 +48,11 @@ td {
   font-size: 1.5rem;
   padding: 1rem;
   border-bottom: 1px solid #ddd;
-  margin-top: 50%;
 }
 
 .button {
   font-size: 1.5rem;
-  padding: 1rem 2rem;
+  padding: 1em 2em;
   background-color: #0077b6;
   color: #fff;
   border: none;
@@ -68,12 +67,12 @@ td {
 .erro {
   color: red;
   font-weight: bold;
-  padding: 1rem 2rem;
+  padding: 1em 2em;
 }
 
 .apagar {
   font-size: 1.5rem;
-  padding: 1rem 1rem;
+  padding: 1em 1em;
   background-color: #f08080;
   color: #fff;
   border: none;
@@ -87,7 +86,7 @@ td {
 .atualizar {
   width: 100%;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 1em;
   margin-bottom: 1.5rem;
   border-radius: 5px;
   border: none;
@@ -100,4 +99,30 @@ td {
 
 .apagar:hover {
   background-color: #800000;
+}
+
+@media (max-width: 768px) {
+  .formulario-consulta-funcionario {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  table {
+    font-size: 1.2rem;
+  }
+
+  th,
+  td {
+    padding: 0.8rem;
+  }
+
+  .button,
+  .apagar,
+  .atualizar {
+    font-size: 1.2rem;
+    padding: 0.8em 1.6em;
+  }
 }

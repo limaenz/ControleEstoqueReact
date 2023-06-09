@@ -27,7 +27,7 @@ function ConsultarProduto() {
 
   return (
     <div className="container">
-      <form className="form" onSubmit={ConsultaProdutos}>
+      <form className="formulario-consulta-produto" onSubmit={ConsultaProdutos}>
         <h1 className="title">Consultar Produto</h1>
 
         <label htmlFor="codigo">Código*:</label>

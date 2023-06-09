@@ -100,7 +100,7 @@ function ConsultarFuncionario() {
   };
 
   return (
-    <div className="container">
+    <div className="container-consulta-funcionario">
       <form className="formulario-consulta-funcionario">
         <h1 className="title">Consultar Funcionário</h1>
 
