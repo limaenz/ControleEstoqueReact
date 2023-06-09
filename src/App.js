@@ -2,12 +2,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TelaPrincipal from './components/TelaPrincipal';
 import Login from './components/Login';
 import CadastroFuncionario from './components/CadastroFuncionario';
+import CadastroProduto from './components/CadastroProduto';
+import CadastroEstoque from './components/CadastroEstoque';
 import ConsultaFuncionario from './components/ConsultaFuncionario';
-import CadastroFerramenta from './components/CadastroFerramenta';
-import ConsultaFerramenta from './components/ConsultaFerramenta';
-import RetiradaMaterial from './components/RetiradaMaterial';
-import ConsultaProdutos from './components/ConsultaProdutos';
-
+import ConsultaEstoque from './components/ConsultaEstoque';
+import ConsultaProduto from './components/ConsultaProduto';
 
 const App = () => {
   return (
@@ -16,11 +15,11 @@ const App = () => {
         <Route path="/" element={<Login />} />
         <Route path="/telaprincipal" element={<TelaPrincipal />} />
         <Route path="/cadastroFuncionario" element={<CadastroFuncionario />} />
+        <Route path="/cadastroProduto" element={<CadastroProduto />} />
+        <Route path="/cadastroEstoque" element={<CadastroEstoque />} />
         <Route path="/consultaFuncionario" element={<ConsultaFuncionario />} />
-        <Route path="/cadastroFerramenta" element={<CadastroFerramenta />} />
-        <Route path="/consultaFerramenta" element={<ConsultaFerramenta />} />
-        <Route path="/almoxarifado" element={<RetiradaMaterial />} />
-        <Route path="/consultaProdutos" element={<ConsultaProdutos />} />
+        <Route path="/consultaProduto" element={<ConsultaProduto />} />
+        <Route path="/consultaEstoque" element={<ConsultaEstoque />} />
       </Routes>
     </BrowserRouter>
   );

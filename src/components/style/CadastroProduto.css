@@ -46,7 +46,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 2px;
+    margin-top: 5%;
   }
   
   .button:hover {
@@ -56,12 +56,10 @@
   .erro {
     color: red;
     font-weight: bold;
-    padding: 1rem 2rem;
   }
   
   .sucesso {
     color: green;
     font-weight: bold;
-    padding: 1rem 2rem;
   }
   

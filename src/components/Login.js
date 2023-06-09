@@ -16,30 +16,44 @@ function Login() {
       .post("https://localhost:7230/api/Funcionario/login", { cpf, senha })
       .then((response) => {
         console.log(response.data);
-        navigate("/telaprincipal"); 
+        navigate("/telaprincipal");
       })
       .catch((error) => {
         console.error(error);
-        setError("CPF or password is invalid");
+        setError("Erro: CPF ou senha incorreta.");
       });
   };
 
   return (
-    <div className="login-container">
-      <form className="login-form" onSubmit={handleSubmit}>
-        <h1>Login</h1>
-        {error && <p>{error}</p>}
-        <label>
-          CPF:
-          <input type="text" value={cpf} onChange={(e) => setCpf(e.target.value)} />
-        </label>
-        <label>
-          Password:
-          <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} />
-        </label>
-        <button type="submit">Login</button>
-      </form>
-    </div>
+    <body className="body">
+      <div className="login-container">
+        <form className="login-form" onSubmit={handleSubmit}>
+          <h1 className="titulo">Login</h1>
+          <label>
+            CPF:
+            <input
+              type="text"
+              value={cpf}
+              placeholder="Insira seu CPF"
+              onChange={(e) => setCpf(e.target.value)}
+              required
+            />
+          </label>
+          <label>
+            Password:
+            <input
+              type="password"
+              value={senha}
+              placeholder="Insira sua senha"
+              onChange={(e) => setSenha(e.target.value)}
+              required
+            />
+          </label>
+          {error && <p className="erro">{error}</p>}
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </body>
   );
 }
 

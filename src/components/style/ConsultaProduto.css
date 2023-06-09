@@ -1,0 +1,52 @@
+.container {
+  background-color: #0077b6;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: black;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  margin: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: grey;
+}
+
+th {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 2px solid #ddd;
+}
+
+td {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.erro {
+  margin-top: 20px;
+}

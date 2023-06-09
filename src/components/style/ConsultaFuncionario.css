@@ -1,0 +1,103 @@
+.container {
+  background-color: #0077b6;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-consulta-funcionario {
+  width: 100%;
+  max-width: 700px;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  margin: auto;
+}
+
+.subtitulo-consulta-funcionario {
+  font-size: 1.5rem;
+}
+
+.title {
+  color: black;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  padding: 5rem;
+  margin: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: grey;
+}
+
+th {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 2px solid #ddd;
+}
+
+td {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  margin-top: 50%;
+}
+
+.button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  margin-top: 2px;
+}
+
+.erro {
+  color: red;
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+
+.apagar {
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  background-color: #f08080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.atualizar {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+
+.button:hover {
+  background-color: #023e8a;
+}
+
+.apagar:hover {
+  background-color: #800000;
+}
