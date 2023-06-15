@@ -49,7 +49,7 @@ setSucesso("");
 }
   return (
     <div className="container-cadastro-estoque">
-      <h1 className="title">Cadastar estoque</h1>
+      <h1 className="titulo-cadastro-estoque">Cadastar estoque</h1>
       <form className='form' onSubmit={CadastraFuncionario}> 
 
       <label htmlFor='codigo'>Codigo*:</label>

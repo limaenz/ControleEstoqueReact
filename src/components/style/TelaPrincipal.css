@@ -7,10 +7,12 @@
   align-items: center;
 }
 
-.titulo {
-  color: #0077b6;
+.titulo-tela-principal {
+  color: #fff;
   font-size: 3.5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 6rem;
 }
 
 .subtitulo {

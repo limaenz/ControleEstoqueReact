@@ -5,8 +5,7 @@ import { Link } from 'react-router-dom';
 function TelaPrincipal() {
   return (
     <div className="container">
-      <h1 className="titulo">Controle de estoque</h1>
-      <h1 className="subtitulo">Tela principal</h1>
+      <h1 className="titulo-tela-principal">Controle de estoque</h1>
       <h3> 
       <Link to="/cadastroFuncionario"> <button className='buttons'> Cadastrar Funcionário </button> </Link>
       <Link to="/cadastroProduto"> <button className='buttons'> Cadastrar Produto </button> </Link>

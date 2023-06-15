@@ -5,13 +5,17 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
-.title {
+.titulo-cadastro-estoque {
   color: #fff;
   font-size: 4rem;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
