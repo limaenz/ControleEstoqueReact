@@ -8,17 +8,15 @@
 }
 
 .titulo {
-  color: #fff;
-  font-size: 4rem;
+  color: #0077b6;
+  font-size: 3.5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-bottom: 2rem;
 }
 
 .subtitulo {
   color: #fff;
   font-size: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-bottom: 3rem;
 }
 
 .buttons {
